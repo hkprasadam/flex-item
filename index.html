@@ -6,16 +6,63 @@
     <title>Document</title>
     <style>
         .div{
-            border: 3px solid;
-            height: 400px;
-            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            border: 2px solid;
+            padding: 10px;
+            border-radius: 10px;
         }
         .div1,.div2,.div3{
-            display: flex;
+            border: 3px solid;
         }
         .div1{
-            border: 2px solid;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: brown;
+            border-radius: 10px;
+        }
+        .div1 div{
+            border: 2px solid red;
             height: 100px;
+            width: 100px;
+            background-color:orange;
+            border-radius: 10px;
+        }
+        .div2{
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .div2 div{
+            border: 2px solid goldenrod;
+            height: 300px;
+            width: 80px;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+        .div2_2{
+            flex-grow: 2;
+        }
+        .div3{
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: blue;
+            border-radius: 10px;
+        }
+        .div3 div{
+            border: 2px solid blueviolet;
+            height: 150px;
+            width: 80px;
+            background-color: aquamarine;
+            border-radius: 10px;
         }
     </style>
     
